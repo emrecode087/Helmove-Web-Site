@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+*.env*
+
+# Vite
+*.timestamp-*
+vite.config.ts.timestamp-*
+
+# Project files
+public/favicon.ico
+public/favicon_helmove.png
+favicon_helmove.png
+favicon.ico
+
+# Scripts
+run_site.bat
+run_site.ps1
+stop_site.bat
+stop_site.ps1

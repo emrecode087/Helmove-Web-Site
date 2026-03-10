@@ -1,0 +1,19 @@
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@import 'tw-animate-css';
+
+/* Fix for Turkish "İ" in uppercase transformations */
+:lang(tr) .uppercase,
+:lang(tr)[class*="uppercase"],
+[lang="tr"] .uppercase {
+  text-transform: uppercase !important;
+  font-language-override: "TRK" !important;
+  font-feature-settings: "locl" 1 !important;
+}
+
+/* Fallback: if user is Turkish and text is forced to uppercase, browsers might fail the dot. */
+html[lang="tr"] {
+  font-language-override: "TRK" !important;
+  font-feature-settings: "locl" 1 !important;
+}
