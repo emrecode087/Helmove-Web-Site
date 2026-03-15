@@ -56,6 +56,7 @@
   "global_challenges_title": "DÃ©fis Globaux",
   "global_challenges_desc": "Participez Ã  des dÃ©fis hebdomadaires de distance ou d'Ã©lÃ©vation. Grimpez au classement et gagnez des badges numÃ©riques exclusifs.",
   "satellites_active": "SATELLITES ACTIFS",
+  "coming_soon": "Bientôt",
   "hardware_sync": "Synchronisation MatÃ©rielle",
   "hardware_sync_badge": "Synchronisation MatÃ©rielle",
   "hardware_sync_title": "Synchronisation MatÃ©rielle",
@@ -176,6 +177,21 @@
     "faq_1_q": "Helmove fonctionne-t-il avec Sena ou Cardo ?",
     "faq_1_a": "Oui. Helmove utilise un protocole de pontage universel qui permet Ã  notre application et Ã  notre matÃ©riel de se connecter de maniÃ¨re transparente avec n'importe quelle grande marque d'intercom Bluetooth ou Mesh sur le marchÃ©.",
     "faq_2_q": "Ai-je besoin d'une connexion Internet active pour l'itinÃ©raire ?",
-    "faq_2_a": "Le calcul initial de l'itinÃ©raire nÃ©cessite une connexion Internet. Une fois l'itinÃ©raire synchronisÃ© avec le groupe, les fonctionnalitÃ©s P2P de base utiliseront les frÃ©quences Bluetooth/Mesh disponibles, mÃªme dans les zones sans rÃ©seau."
+    "faq_2_a": "Le calcul initial de l'itinÃ©raire nÃ©cessite une connexion Internet. Une fois l'itinÃ©raire synchronisÃ© avec le groupe, les fonctionnalitÃ©s P2P de base utiliseront les frÃ©quences Bluetooth/Mesh disponibles, mÃªme dans les zones sans rÃ©seau.",
+    "general_questions": "Questions générales",
+    "q1": "Qu'est-ce que Helmove ?",
+    "a1": "Helmove est une plateforme de communication indépendante des marques pour les motocyclistes, permettant une communication vocale fluide entre différentes marques d'intercom.",
+    "q2": "Avec quels appareils Helmove est-il compatible ?",
+    "a2": "Helmove fonctionne avec Sena, Cardo et toutes les grandes marques d'intercom Bluetooth/Mesh. Avec le matériel HELMIC, vous pouvez également vous connecter directement à vos haut-parleurs de casque.",
+    "account_safety": "Compte & Sécurité",
+    "q5": "Comment supprimer mon compte ?",
+    "a5": "Allez dans Paramètres › Compte › Suppression des données dans l'application pour supprimer définitivement votre compte. Cette action est irréversible.",
+    "q6": "Comment signaler un contenu inapproprié ?",
+    "a6": "Utilisez le menu à trois points à côté d'une publication et sélectionnez \"Signaler\". Notre équipe examine tous les signalements dans les 24 heures.",
+    "community": "Communauté",
+    "q7": "Comment créer un groupe ?",
+    "a7": "Appuyez sur \"Créer un groupe\" sur l'écran principal, invitez vos compagnons et prenez la route. Les membres du groupe peuvent se suivre en temps réel par communication vocale.",
+    "q8": "Comment me connecter avec d'autres motards ?",
+    "a8": "Utilisez l'onglet Découvrir pour trouver des motards à proximité, suivre des profils et participer aux événements de la communauté."
   }
 }

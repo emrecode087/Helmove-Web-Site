@@ -76,10 +76,10 @@ export function Navbar() {
           <button onClick={goToFeatures} className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors bg-transparent">
             {t('features').toLocaleUpperCase(currentLocale)}
           </button>
-          <button onClick={goToHardware} className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors bg-transparent">
+          {/* <button onClick={goToHardware} className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors bg-transparent">
             {t('hardware').toLocaleUpperCase(currentLocale)}
-          </button>
-          
+          </button> */}
+
           <div 
             className="relative h-20 flex items-center" 
             onMouseEnter={() => setSupportOpen(true)} 

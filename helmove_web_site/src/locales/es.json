@@ -56,6 +56,7 @@
   "global_challenges_title": "Retos Globales",
   "global_challenges_desc": "Compite en desafÃ­os semanales de distancia o elevaciÃ³n. Sube en la tabla de lÃ­deres y gana insignias digitales exclusivas.",
   "satellites_active": "SATÃ‰LITES ACTIVOS",
+  "coming_soon": "Próximamente",
   "hardware_sync": "SincronizaciÃ³n de Hardware",
   "hardware_sync_badge": "SincronizaciÃ³n de Hardware",
   "hardware_sync_title": "SincronizaciÃ³n de Hardware",
@@ -176,6 +177,21 @@
     "faq_1_q": "Â¿Funciona Helmove con Sena o Cardo?",
     "faq_1_a": "SÃ­. Helmove utiliza un protocolo de puenteo universal que permite que nuestra aplicaciÃ³n y hardware se conecten a la perfecciÃ³n con cualquier marca importante de intercomunicadores Bluetooth o Mesh del mercado.",
     "faq_2_q": "Â¿Necesito una conexiÃ³n a Internet activa para la navegaciÃ³n?",
-    "faq_2_a": "El cÃ¡lculo inicial de la ruta requiere una conexiÃ³n a Internet. Una vez que la ruta se sincroniza con el grupo, las funciones principales P2P utilizarÃ¡n las frecuencias Bluetooth/Mesh disponibles, incluso en zonas de sombra."
+    "faq_2_a": "El cÃ¡lculo inicial de la ruta requiere una conexiÃ³n a Internet. Una vez que la ruta se sincroniza con el grupo, las funciones principales P2P utilizarÃ¡n las frecuencias Bluetooth/Mesh disponibles, incluso en zonas de sombra.",
+    "general_questions": "Preguntas generales",
+    "q1": "¿Qué es Helmove?",
+    "a1": "Helmove es una plataforma de comunicación independiente de marca para motociclistas, que permite una comunicación de voz fluida entre diferentes marcas de intercomunicadores.",
+    "q2": "¿Con qué dispositivos es compatible Helmove?",
+    "a2": "Helmove funciona con Sena, Cardo y todas las principales marcas de intercomunicadores Bluetooth/Mesh. Con el hardware HELMIC, también puede conectarse directamente a los altavoces de su casco.",
+    "account_safety": "Cuenta y seguridad",
+    "q5": "¿Cómo elimino mi cuenta?",
+    "a5": "Ve a Configuración › Cuenta › Eliminación de datos en la aplicación para eliminar permanentemente tu cuenta. Esta acción no se puede deshacer.",
+    "q6": "¿Cómo denuncio contenido inapropiado?",
+    "a6": "Usa el menú de tres puntos junto a cualquier publicación y selecciona \"Denunciar\". Nuestro equipo revisa todas las denuncias en 24 horas.",
+    "community": "Comunidad",
+    "q7": "¿Cómo creo un grupo?",
+    "a7": "Toca \"Crear grupo\" en la pantalla principal, invita a tus compañeros y sal a la carretera. Los miembros del grupo pueden seguirse en tiempo real mediante comunicación de voz.",
+    "q8": "¿Cómo me conecto con otros conductores?",
+    "a8": "Usa la pestaña Descubrir para encontrar conductores cercanos, seguir perfiles y unirte a eventos de la comunidad."
   }
 }

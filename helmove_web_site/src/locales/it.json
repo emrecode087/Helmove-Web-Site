@@ -56,6 +56,7 @@
   "global_challenges_title": "Sfide Globali",
   "global_challenges_desc": "Partecipa a sfide settimanali di distanza o elevazione. Scala la classifica e guadagna distintivi digitali esclusivi.",
   "satellites_active": "SATELLITI ATTIVI",
+  "coming_soon": "Prossimamente",
   "hardware_sync": "Sincronizzazione Hardware",
   "hardware_sync_badge": "Sincronizzazione Hardware",
   "hardware_sync_title": "Sincronizzazione Hardware",
@@ -176,6 +177,21 @@
     "faq_1_q": "Helmove funziona con Sena o Cardo?",
     "faq_1_a": "SÃ¬. Helmove utilizza un protocollo di bridging universale che consente alla nostra app e al nostro hardware di connettersi perfettamente con qualsiasi marca di interfono Bluetooth o Mesh presente sul mercato.",
     "faq_2_q": "Ho bisogno di una connessione Internet attiva per il routing?",
-    "faq_2_a": "Il calcolo iniziale del percorso richiede una connessione Internet. Una volta sincronizzato il percorso con il gruppo, le funzioni P2P principali utilizzeranno le frequenze Bluetooth/Mesh disponibili anche in zone senza segnale."
+    "faq_2_a": "Il calcolo iniziale del percorso richiede una connessione Internet. Una volta sincronizzato il percorso con il gruppo, le funzioni P2P principali utilizzeranno le frequenze Bluetooth/Mesh disponibili anche in zone senza segnale.",
+    "general_questions": "Domande generali",
+    "q1": "Cos'è Helmove?",
+    "a1": "Helmove è una piattaforma di comunicazione indipendente dal marchio per motociclisti, che consente una comunicazione vocale fluida tra diverse marche di interfono.",
+    "q2": "Con quali dispositivi è compatibile Helmove?",
+    "a2": "Helmove funziona con Sena, Cardo e tutti i principali marchi di interfono Bluetooth/Mesh. Con l'hardware HELMIC, puoi anche collegarti direttamente agli altoparlanti del tuo casco.",
+    "account_safety": "Account e sicurezza",
+    "q5": "Come elimino il mio account?",
+    "a5": "Vai su Impostazioni › Account › Eliminazione dati nell'app per eliminare definitivamente il tuo account. Questa azione non può essere annullata.",
+    "q6": "Come segnalo contenuti inappropriati?",
+    "a6": "Usa il menu a tre punti accanto a qualsiasi post e seleziona \"Segnala\". Il nostro team esamina tutte le segnalazioni entro 24 ore.",
+    "community": "Community",
+    "q7": "Come creo un gruppo?",
+    "a7": "Tocca \"Crea gruppo\" nella schermata principale, invita i tuoi compagni di viaggio e parti. I membri del gruppo possono seguirsi in tempo reale tramite comunicazione vocale.",
+    "q8": "Come mi collego con altri motociclisti?",
+    "a8": "Usa la scheda Scopri per trovare motociclisti nelle vicinanze, seguire profili e partecipare agli eventi della community."
   }
 }

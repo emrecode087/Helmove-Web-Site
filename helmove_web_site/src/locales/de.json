@@ -56,6 +56,7 @@
   "global_challenges_title": "Globale Herausforderungen",
   "global_challenges_desc": "Tritt in wÃ¶chentlichen Distanz- oder HÃ¶henmeter-Herausforderungen an. Steige in der Rangliste auf und verdiene exklusive digitale Abzeichen.",
   "satellites_active": "SATELLITEN AKTIV",
+  "coming_soon": "Demnächst",
   "hardware_sync": "Hardware-Synchronisierung",
   "hardware_sync_badge": "Hardware-Synchronisierung",
   "hardware_sync_title": "Hardware-Synchronisierung",
@@ -176,6 +177,21 @@
     "faq_1_q": "Funktioniert Helmove mit Sena oder Cardo?",
     "faq_1_a": "Ja. Helmove nutzt ein universelles ÃœberbrÃ¼ckungsprotokoll, das es unserer App und Hardware ermÃ¶glicht, sich nahtlos mit jeder gÃ¤ngigen Bluetooth- oder Mesh-Intercom-Marke auf dem Markt zu verbinden.",
     "faq_2_q": "BenÃ¶tige ich eine aktive Internetverbindung fÃ¼r das Routing?",
-    "faq_2_a": "Die anfÃ¤ngliche Routenberechnung erfordert eine Internetverbindung. Sobald die Route mit der Gruppe synchronisiert ist, nutzen die P2P-Funktionen verfÃ¼gbare Bluetooth-/Mesh-Frequenzen, auch in FunklÃ¶chern."
+    "faq_2_a": "Die anfÃ¤ngliche Routenberechnung erfordert eine Internetverbindung. Sobald die Route mit der Gruppe synchronisiert ist, nutzen die P2P-Funktionen verfÃ¼gbare Bluetooth-/Mesh-Frequenzen, auch in FunklÃ¶chern.",
+    "general_questions": "Allgemeine Fragen",
+    "q1": "Was ist Helmove?",
+    "a1": "Helmove ist eine markenunabhängige Kommunikationsplattform für Motorradfahrer, die nahtlose Sprachkommunikation zwischen verschiedenen Intercom-Marken ermöglicht.",
+    "q2": "Mit welchen Geräten ist Helmove kompatibel?",
+    "a2": "Helmove funktioniert mit Sena, Cardo und allen wichtigen Bluetooth/Mesh-Intercom-Marken. Mit der HELMIC-Hardware können Sie sich auch direkt mit Ihren Helmsprechern verbinden.",
+    "account_safety": "Konto & Sicherheit",
+    "q5": "Wie lösche ich mein Konto?",
+    "a5": "Gehen Sie in der App zu Einstellungen › Konto › Datenlöschung, um Ihr Konto dauerhaft zu löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "q6": "Wie melde ich unangemessene Inhalte?",
+    "a6": "Verwenden Sie das Drei-Punkte-Menü neben einem Beitrag und wählen Sie \"Melden\". Unser Team überprüft alle Meldungen innerhalb von 24 Stunden.",
+    "community": "Community",
+    "q7": "Wie erstelle ich eine Gruppe?",
+    "a7": "Tippen Sie auf \"Gruppe erstellen\" im Hauptbildschirm, laden Sie Ihre Fahrer ein und fahren Sie los. Gruppenmitglieder können sich in Echtzeit per Sprachkommunikation verfolgen.",
+    "q8": "Wie verbinde ich mich mit anderen Fahrern?",
+    "a8": "Verwenden Sie die Entdecken-Registerkarte, um nahegelegene Fahrer zu finden, Profile zu folgen und an Community-Veranstaltungen teilzunehmen."
   }
 }

@@ -12,7 +12,7 @@ export function Home() {
       <Hero />
       <Philosophy />
       <SocialHeart />
-      <HelmicHardware />
+      {/* <HelmicHardware /> */}
       <Telemetry />
       <TechSpecs />
       <DynamicRouting />

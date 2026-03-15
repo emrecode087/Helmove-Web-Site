@@ -126,7 +126,7 @@ export function SocialHeart() {
           >
             <div className="h-64 overflow-hidden relative">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1542362567-b0440bf39da5?auto=format&fit=crop&w=1080&q=80"
+                src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1080&q=80"
                 alt="Motorcycle racing leaderboard"
                 className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700"
               />
@@ -198,9 +198,14 @@ export function SocialHeart() {
 
             <div className="p-8 relative">
               <div className="absolute top-0 right-8 w-12 h-1 bg-[#FF5500] shadow-[0_0_10px_rgba(255,85,0,0.8)] -translate-y-1/2 rounded-full"></div>
-              <h4 className="text-2xl font-bold text-white mb-4 tracking-wide group-hover:text-[#FF5500] transition-colors" style={{ fontFamily: "'Orbitron', sans-serif" }}>
-                {t("hardware_sync_title").toLocaleUpperCase(i18n.language)}
-              </h4>
+              <div className="flex items-center gap-3 mb-4">
+                <h4 className="text-2xl font-bold text-white tracking-wide group-hover:text-[#FF5500] transition-colors" style={{ fontFamily: "'Orbitron', sans-serif" }}>
+                  {t("hardware_sync_title").toLocaleUpperCase(i18n.language)}
+                </h4>
+                <span className="shrink-0 px-2.5 py-1 text-[10px] font-black tracking-widest text-[#FF5500] border border-[#FF5500]/60 rounded-full bg-[#FF5500]/10 animate-pulse">
+                  {t("coming_soon").toLocaleUpperCase(i18n.language)}
+                </span>
+              </div>
               <p className="text-gray-400 leading-relaxed" style={{ fontFamily: "'Inter', sans-serif" }}>
                 {t("hardware_sync_desc")}
               </p>

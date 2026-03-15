@@ -50,15 +50,15 @@ export function SupportCenter() {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-white uppercase border-b border-primary/30 pb-2">{t("support_center_page.technical_issues")}</h3>
+            <h3 className="text-lg font-bold text-white uppercase border-b border-primary/30 pb-2">{t("support_center_page.community")}</h3>
             <ul className="space-y-4 text-gray-400">
               <li>
-                <p className="text-white font-medium">{t("support_center_page.q3")}</p>
-                <p className="text-sm mt-1">{t("support_center_page.a3")}</p>
+                <p className="text-white font-medium">{t("support_center_page.q7")}</p>
+                <p className="text-sm mt-1">{t("support_center_page.a7")}</p>
               </li>
               <li>
-                <p className="text-white font-medium">{t("support_center_page.q4")}</p>
-                <p className="text-sm mt-1">{t("support_center_page.a4")}</p>
+                <p className="text-white font-medium">{t("support_center_page.q8")}</p>
+                <p className="text-sm mt-1">{t("support_center_page.a8")}</p>
               </li>
             </ul>
           </div>
