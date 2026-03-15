@@ -6,7 +6,6 @@ import { PrivacyPolicy } from "./pages/PrivacyPolicy";
 import { TermsOfUse } from "./pages/TermsOfUse";
 import { SupportCenter } from "./pages/SupportCenter";
 import { DataDeletion } from "./pages/DataDeletion";
-import { Login } from "./pages/Login";
 import { AppLinks } from "./pages/AppLinks";
 
 function Root() {
@@ -31,7 +30,6 @@ export const router = createBrowserRouter([
       { path: "terms-of-use", Component: TermsOfUse },
       { path: "support-center", Component: SupportCenter },
       { path: "data-deletion", Component: DataDeletion },
-      { path: "login", Component: Login },
       { path: "app-links", Component: AppLinks },
     ],
   },

@@ -30,6 +30,19 @@ export function Navbar() {
     }
   }
 
+  function goToFeatures() {
+    if (window.location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const el = document.getElementById('features');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 120);
+    } else {
+      const el = document.getElementById('features');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
   function goToPhilosophy() {
     if (window.location.pathname !== '/') {
       navigate('/');
@@ -60,7 +73,9 @@ export function Navbar() {
           <button onClick={goToPhilosophy} className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors bg-transparent">
             {t('philosophy').toLocaleUpperCase(currentLocale)}
           </button>
-          <Link to="/" className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors">{t('features').toLocaleUpperCase(currentLocale)}</Link>
+          <button onClick={goToFeatures} className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors bg-transparent">
+            {t('features').toLocaleUpperCase(currentLocale)}
+          </button>
           <button onClick={goToHardware} className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors bg-transparent">
             {t('hardware').toLocaleUpperCase(currentLocale)}
           </button>
@@ -90,11 +105,6 @@ export function Navbar() {
             </div>
           </div>
           
-          
-          
-          <Link to="/login" className="text-xs font-bold text-gray-300 hover:text-[#FF5500] tracking-[0.15em] transition-colors">
-            {t('login').toLocaleUpperCase(currentLocale)}
-          </Link>
           
           <button 
             onClick={() => navigate('/app-links')}

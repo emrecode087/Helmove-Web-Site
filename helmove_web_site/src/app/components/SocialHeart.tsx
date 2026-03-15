@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 export function SocialHeart() {
   const { t, i18n } = useTranslation();
   return (
-    <section className="relative py-32 bg-[#080808] border-t border-white/5">
+    <section id="features" className="relative py-32 bg-[#080808] border-t border-white/5">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-[#FF5500] text-sm font-bold tracking-[0.2em] mb-4" style={{ fontFamily: "'Inter', sans-serif" }}>
