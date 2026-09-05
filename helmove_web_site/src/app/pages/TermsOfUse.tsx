@@ -91,10 +91,25 @@ export function TermsOfUse() {
           <p>{t("terms_of_use_page.section9_content")}</p>
         </section>
 
-        {/* 10. Apple iOS */}
+        {/* 11. Apple iOS */}
+        {/* 10. Abonelik, Ucretlendirme ve Iptal */}
         <section>
           <h3 className="text-xl font-bold text-white mt-8 mb-4">{t("terms_of_use_page.section10_title")}</h3>
           <p className="mb-3">{t("terms_of_use_page.section10_content")}</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>{t("terms_of_use_page.sub_1")}</li>
+            <li>{t("terms_of_use_page.sub_2")}</li>
+            <li>{t("terms_of_use_page.sub_3")}</li>
+            <li>{t("terms_of_use_page.sub_4")}</li>
+            <li>{t("terms_of_use_page.sub_5")}</li>
+            <li>{t("terms_of_use_page.sub_6")}</li>
+            <li>{t("terms_of_use_page.sub_7")}</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 className="text-xl font-bold text-white mt-8 mb-4">{t("terms_of_use_page.section11_title")}</h3>
+          <p className="mb-3">{t("terms_of_use_page.section11_content")}</p>
           <ul className="list-disc pl-6 space-y-2">
             <li>{t("terms_of_use_page.apple_1")}</li>
             <li>{t("terms_of_use_page.apple_2")}</li>
@@ -107,17 +122,17 @@ export function TermsOfUse() {
           </ul>
         </section>
 
-        {/* 11. Değişiklikler */}
-        <section>
-          <h3 className="text-xl font-bold text-white mt-8 mb-4">{t("terms_of_use_page.section11_title")}</h3>
-          <p>{t("terms_of_use_page.section11_content")}</p>
-        </section>
-
-        {/* 12. İletişim */}
+        {/* 12. Değişiklikler */}
         <section>
           <h3 className="text-xl font-bold text-white mt-8 mb-4">{t("terms_of_use_page.section12_title")}</h3>
+          <p>{t("terms_of_use_page.section12_content")}</p>
+        </section>
+
+        {/* 13. İletişim */}
+        <section>
+          <h3 className="text-xl font-bold text-white mt-8 mb-4">{t("terms_of_use_page.section13_title")}</h3>
           <p>
-            {t("terms_of_use_page.section12_content")}{" "}
+            {t("terms_of_use_page.section13_content")}{" "}
             <a href="mailto:legal@helmove.app" className="text-[#FF5500] hover:underline">
               legal@helmove.app
             </a>
@@ -126,7 +141,7 @@ export function TermsOfUse() {
 
         <footer className="mt-8 pt-8 border-t border-white/10">
           <p className="text-sm text-gray-500">
-            {t("last_updated")}: March 14, 2026
+            {t("last_updated")}: September 5, 2026
           </p>
         </footer>
       </div>
